@@ -1,0 +1,84 @@
+/* Login page-specific styles */
+header {
+    background-color: #b1230a;
+    padding: 20px 20px; /* Padding for top and bottom */
+    text-align: center; 
+}
+
+h1 {
+    font-size: 36px; 
+    color: #0e0d0d;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 100px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.login-container {
+    background-color: #91b4c9;
+    width: 300px;
+    margin: 0 auto;
+    opacity: 1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #888;
+    text-align: center;
+    margin-top: 100px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}

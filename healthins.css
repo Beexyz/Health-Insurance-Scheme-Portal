@@ -1,0 +1,26 @@
+/* CSS for the header section */
+header {
+    background-color: #b1230a ;
+    padding: 20px 20px; /* Padding for top and bottom */
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#p1 {
+    font-size: 19px;
+}
